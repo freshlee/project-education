@@ -116,6 +116,7 @@
 .goods{
   padding: 20rpx;
   background: white;
+  border-top: 1rpx solid gainsboro;
 }
 .good{
   position: relative;

@@ -45,7 +45,7 @@ Page({
      mycate=cate;
      this.setData({
        cates:cate,
-       trans_mytype:trans,
+       trans_mycate:trans,
      })
      console.log(this.data.cates);
   },
@@ -63,7 +63,7 @@ Page({
     var pay = event.currentTarget.dataset.pay;
     mypay = pay;
     this.setData({
-      trans_mytype:trans,
+      trans_mypay:trans,
       pays: pay,
     })
   },

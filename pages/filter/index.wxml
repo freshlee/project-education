@@ -13,7 +13,7 @@
 <view class="typename">类别</view>
 <view class="{{cates==item.id?'typeon':'type'}}" wx:for="{{type}}" bindtap="chosecate" data-cate="{{item.id}}"
  data-trans="{{item.name}}">{{item.name}}</view>
-<view class="{{cates==0?'typeon':'type'}}"  bindtap="chosecate" data-cate="0"
+<view class="{{cates==0?'typeon':'type'}}"  bindtap="chosecate" data-cate="0" data-trans="全部"
 >全部</view>
 </view>
 <view class="list">

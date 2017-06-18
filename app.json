@@ -1,9 +1,10 @@
 {
   "pages": [
     "pages/demo/index",
+    "pages/community/square/index",
     "pages/filter/index",
     "pages/video/index",
-    "pages/community/index",
+    "pages/community/home/index",
     "pages/shedule/index",
     "pages/checkout/index",
     "pages/paymenu/index",
@@ -19,7 +20,7 @@
     "backgroundTextStyle": "dark",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "测试",
-    "navigationBarBackgroundColor": "#e30c26",
+    "navigationBarBackgroundColor": "rgb(7,103,200)",
     "backgroundColor": "#F2f2f2",
     "enablePullDownRefresh": false
   },
@@ -42,7 +43,7 @@
         "text": "课表"
       },
       {
-        "pagePath": "pages/community/index",
+        "pagePath": "pages/community/home/index",
         "iconPath": "images/shedule_logo.png",
         "selectedIconPath": "images/cart-icon1.png",
         "text": "社区"
