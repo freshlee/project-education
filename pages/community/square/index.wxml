@@ -1,2 +1,44 @@
 <!--index.wxml-->
-<text>index.wxml</text>
+<view class="body">
+<view class="header case">
+<view class="script"></view>
+<view class="title">有哪些[挂体育这种操作]的故事?</view>
+<view class="describe">相关问题:你在游戏中遇到过哪些“居然还有这种操作的”的故事</view>
+<view class="info">
+<view class="browser">93938</view>
+<view class="amount">38</view>
+<view class="concert"> 关注 </view>
+</view>
+<view class="panel"></view>
+</view>
+
+<view class="gap"> 5475个帖子</view>
+
+<view class="case tip">
+<view class="user">轮子哥</view>
+<view class="content">原著小说中曾经提到这么一个细节,李达康在任林城市委书记的时候，林城由于煤炭采掘，造成大量的塌陷区，李达康为了综合利用这些塌陷区，防止圈占大量农田搞开发区造成浪费，向自己的老上司”。</view>
+<view class="interact">
+<view class="praise">13K赞同</view>-
+<view class="comment">1.K评论</view>
+</view>
+</view>
+
+<view class="case tip">
+<view class="user">轮子哥</view>
+<view class="content">原著小说中曾经提到这么一个细节,李达康在任林城市委书记的时候，林城由于煤炭采掘，造成大量的塌陷区，李达康为了综合利用这些塌陷区，防止圈占大量农田搞开发区造成浪费，向自己的老上司”。</view>
+<view class="interact">
+<view class="praise">13K赞同</view>-
+<view class="comment">1.K评论</view>
+</view>
+</view>
+
+<view class="case tip">
+<view class="user">轮子哥</view>
+<view class="content">原著小说中曾经提到这么一个细节,李达康在任林城市委书记的时候，林城由于煤炭采掘，造成大量的塌陷区，李达康为了综合利用这些塌陷区，防止圈占大量农田搞开发区造成浪费，向自己的老上司”。</view>
+<view class="interact">
+<view class="praise">13K赞同</view>-
+<view class="comment">1.K评论</view>
+</view>
+</view>
+
+</view>

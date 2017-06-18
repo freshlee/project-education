@@ -25,26 +25,17 @@
 <view class="catename">热门内容</view>
 <view class="discribe">24消失内热门回答以及文章</view>
 <view class="case">
-<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<navigator url="../square/index"><view class="title">如果有一个按钮，按下后所有JAVA都会消失</view></navigator>
 <view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
 </view>
 
 <view class="case">
-<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<navigator url="../square/index"><view class="title">如果有一个按钮，按下后所有JAVA都会消失</view></navigator>
 <view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
 </view>
 
 <view class="case">
-<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
-<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
-</view>
-
-</view>
-<view class="content">
-<view class="catename">热门内容</view>
-<view class="discribe">24消失内热门回答以及文章</view>
-<view class="case">
-<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<navigator url="../square/index"><view class="title">如果有一个按钮，按下后所有JAVA都会消失</view></navigator>
 <view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
 </view>
 
@@ -53,7 +44,16 @@
 <view class="catename">热门内容</view>
 <view class="discribe">24消失内热门回答以及文章</view>
 <view class="case">
-<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<navigator url="../square/index"><view class="title">如果有一个按钮，按下后所有JAVA都会消失</view></navigator>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+</view>
+
+<view class="content">
+<view class="catename">热门内容</view>
+<view class="discribe">24消失内热门回答以及文章</view>
+<view class="case">
+<navigator url="../square/index"><view class="title">如果有一个按钮，按下后所有JAVA都会消失</view></navigator>
 <view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
 </view>
 

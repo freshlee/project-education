@@ -18,18 +18,10 @@ Page({
      back: this.data.back=="black"?"white":"black",
      fontcolor: this.data.fontcolor=="white"?"black":"white",
    })
-   console.log(this.data.back);
+   console.log(this.data.eqheight);
+
   },
-  onLoad: function (options) {
-    var THIS=this;
-    wx.getSystemInfo({
-      success: function (res) {
-        THIS.setData({
-          eqheight:res.windowHeight,
-        })
-      }
-    })
-  },
+
   sm:function(){
     this.setData({
       fontsize: this.data.fontsize-5,
@@ -57,6 +49,14 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+    var THIS = this;
+    wx.getSystemInfo({
+      success: function (res) {
+        THIS.setData({
+          eqheight: res.windowHeight,
+        })
+      }
+    })
     
   },
 

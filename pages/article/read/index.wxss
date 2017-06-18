@@ -1,5 +1,6 @@
 /* index.wxss */
 @import "../../../wxParse/wxParse.wxss";
+
 .panel{
   text-align: right;
   padding:0 10rpx;

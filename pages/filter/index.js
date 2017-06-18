@@ -1,4 +1,5 @@
 // index.js
+//请注意 页面数据和访问后台数据分开储存了；
 var mycate=undefined;
 var mytype=undefined;
 var mypay=undefined;
@@ -8,7 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    cases: [{ name: "名字", attr1: "测试" }, { name: "名字", attr1: "测试" }],
+    cases: [{ name: "名字", attr1: "测试" }, { name: "名字", attr1: "测试" }, { name: "名字", attr1: "测试" }, { name: "名字", attr1: "测试" }],
   cates:0,
   types:0,
   pays:0,
@@ -94,6 +95,23 @@ Page({
     var newpay = mypay == undefined ? "" : '&priceattr=' + mypay;
     var newurl = "http://192.168.1.16/index.php?c=edu&a=goods&op=query_goods"+newcate+newtype+newpay;
     var type = options.type;
+    //初始化数据
+    mytype=type;
+    switch(type){
+      case "1":
+      type="视频";
+      break;
+      case "2":
+      type="课程";
+      break;
+      case "3":
+      type="文章";
+    }
+    console.log(type);
+    this.setData({
+      types:mytype,
+      trans_mytype:type,
+    })
     var cate = options.cate;
     var pay = options.pay;
     var Thetype=options.type;

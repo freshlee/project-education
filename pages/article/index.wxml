@@ -1,26 +1,48 @@
 <!--index.wxml-->
 <import src="../../wxParse/wxParse.wxml"/> 
 <view class="body">
-<view class="header case" style="background: url('C:/Users/Administrator/Desktop/image/back.jpg');">
-<view class="picture list"> <image src="C:/Users/Administrator/Desktop/image/banner2.jpg" style="height:300rpx;width:250rpx"></image> </view>
+
+<view class="header case">
+<view class="picture list"> <image src="../../images/书.jpg" style="height:300rpx;width:220rpx"></image> </view>
 <view class="info list">
-<view class="name">书名</view>
-<view class="li">作者</view>
-<view class="li">来源</view>
-<view class="li">类型</view>
-<view class="li">字数</view>
+<view class="name">商业的本质</view>
+<view class="li">作者：杰克 韦尔奇等</view>
+<view class="li price">29.4</view>
+<view class="li">类型:商业</view>
+<view class="li">字数:约1.5万字</view>
 </view>
+<view class="panel">
+<view class="purchase">购买</view>
+<view class="try" bindtap="toRead">试读</view>
 </view>
+<view class="operate">
+<view class="menu"> <view class="classname"> <image src="../../images/demoimage/order_logo.png"></image> </view> 目录</view>
+<view class="collect"> <view class="classname"> <image src="../../images/demoimage/purchaser.png"></image> </view> 收藏</view>
+</view>
+
+</view>
+
+
+
 <view class="content case">
-asddsa俺是个师傅的告诉对方</view>
-<view class="section case">
-<view class="classname">第一章</view>
-<view class="classname">第二章</view>
-<view class="classname">第三章</view>
-<view class="classname">第四</view>
-<view class="classname">XX</view>
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/></view>
+<!--推荐-->
+<view class="recomandBox case ">
+<view class="title">相关的课程</view>
+<!--模块-->
+<view class="recomand">
+<view class="title_case">
+<view class="picture list"> <image src="C:/Users/Administrator/Desktop/image/Case3-02.png"></image> </view>
+<view class="info list">
+<view class="classname">MK-linux运维</view>
+<view class="classname">openstack-slatstack学习</view>
+<view class="priceattr">免费</view>
 </view>
-<view class="free" style="display:{{show==1?'block':'none'}}">
-<view class="classname"> 前往观看</view>
 </view>
+
+</view>
+
+</view>
+
+
 </view>

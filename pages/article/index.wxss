@@ -6,30 +6,125 @@
   position: relative;
   background: gainsboro;
 }
-.info .name{
-  top:-20rpx;
-  position: relative;
-  font-size: 40rpx;
-}
-.info view{
-  font-size: 35rpx;
-}
-.header .list{
+.header>.list{
   display: inline-block;
-  padding: 20rpx;
-  text-align: middle;
-
+  height: 300rpx;
+  padding: 20rpx 20rpx 20rpx 0rpx;
+  vertical-align: top;
 }
+.header{
+  padding-bottom:20rpx;
+}
+.info .name{
+  position: relative;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 25rpx;
+}
+.info .li{
+  font-size: 25rpx;
+  color: grey;
+  margin: 5rpx 0;
+}
+.info .price{
+  margin: 15rpx 0;
+  color: red;
+  font-size: 30rpx;
+}
+.panel>view{
+   display: inline-block;
+   width:48%; 
+   text-align: center;
+   font-size: 45rpx;
+  padding: 15rpx 0;
+}
+.panel>.purchase{
+    background: rgb(7,103,200);
+    color: white;
+    border-radius: 5rpx;
+    font-weight: lighter;
+    font-size: 30rpx;
+}
+.panel .try{
+   margin-left:20rpx;  
+   border: 1rpx solid rgb(7,103,200);
+   color: rgb(7,103,200);
+    border-radius: 5rpx;
+    font-weight: lighter;
+    font-size: 30rpx;
+}
+
+
+.operate>view{
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  font-size:30rpx;
+  padding:30rpx 0;
+  color: grey;
+}
+.operate>.collect{
+  margin-left:20rpx;
+}
+.operate image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+
+
+ .title{
+  font-size: 40rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.title_case{
+  padding:20rpx 0;
+  border-bottom:1rpx solid gainsboro;
+}
+.title_case .list{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+}
+.title_case .info{
+  height: 150rpx;
+  line-height: 37.5rpx;
+  padding-left:20rpx;
+}
+.title_case image{
+  height: 150rpx;
+}
+.title_case .priceattr{
+  line-height: 75rpx;
+  height: 75rpx;
+  font-size:35rpx;
+  color:green;
+}
+
+
+
+
+.recomand view{
+    white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
 .case{
-  padding:0 60rpx;
-  margin-bottom: 5rpx;
+  padding:0 30rpx;
+  margin-bottom: 20rpx;
   background-color:white;
-  
+  box-shadow: 0rpx 3rpx 2rpx #888888;
+}
+.case:last-of-type{
+  margin: 0;
+  box-shadow: none;
 }
 .content{
    font-size:30rpx;
    text-indent: 2em;
-   padding:30rpx 60rpx; 
+   padding:30rpx 60rpx;
 }
 .section view{
    text-align: center;

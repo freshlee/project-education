@@ -2,6 +2,7 @@
   "pages": [
     "pages/demo/index",
     "pages/community/square/index",
+    "pages/article/index",
     "pages/filter/index",
     "pages/video/index",
     "pages/community/home/index",
@@ -11,7 +12,6 @@
     "pages/pay/index",
     "pages/article/read/index",
     "pages/my/index",
-    "pages/article/index",
     "pages/course/index",
     "pages/advertise/index",
     "pages/list/index"

@@ -1,1 +1,71 @@
 /* index.wxss */
+.body{
+  background: gainsboro;
+}
+.case{
+  padding:0 30rpx;
+  margin-bottom: 20rpx;
+  background-color:white;
+  box-shadow: 0rpx 3rpx 2rpx #888888;
+}
+.case:last-of-type{
+  margin: 0;
+  box-shadow: none;
+}
+.header>view{
+  padding:20rpx 30rpx;
+}
+.title{
+  font-size:45rpx;
+}
+.header .browser{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 20rpx;
+  color: grey;
+  font-size:30rpx;
+
+
+}
+.header .amount{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 20rpx;
+  color: grey;
+  font-size:30rpx;
+}
+.header .concert{
+    display: inline-block;
+    vertical-align: middle;
+  width: 20%;
+  margin-right: 20rpx;
+  float: right;
+  text-align: center;
+  padding: 10rpx 30rpx;
+  background: mediumseagreen;
+  border-radius: 5rpx;
+  color: white;
+}
+.gap{
+  margin:-20rpx 0 0;
+  padding: 20 30rpx;
+  font-size: 30rpx;
+  color: grey;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.tip .user{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: dimgrey;
+  font-weight: bold;
+}
+.tip .interact>view{
+  display: inline-block;
+  color: grey;
+  height: 80rpx;
+  line-height: 80rpx;
+}
