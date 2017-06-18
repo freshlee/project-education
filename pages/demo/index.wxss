@@ -73,14 +73,14 @@
   height: 100%;
 }
 .caseHead{
-  height: 60rpx;
-  line-height: 60rpx;
+  height: 80rpx;
+  line-height: 80rpx;
 
 }
 .title{
   float: left;
-  font-weight:600;
-  font-size:1.5em;  
+  font-weight:normal;
+  font-size:35rpx;  
 }
 .more{
   float: right;

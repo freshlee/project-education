@@ -13,7 +13,7 @@
   box-shadow: none;
 }
 .header>view{
-  padding:20rpx 30rpx;
+  padding:20rpx 0;
 }
 .title{
   font-size:45rpx;
@@ -49,8 +49,8 @@
   color: white;
 }
 .gap{
-  margin:-20rpx 0 0;
-  padding: 20 30rpx;
+  margin:-20rpx 30rpx 0;
+  padding: 20rpx 30rpx;
   font-size: 30rpx;
   color: grey;
   height: 60rpx;
