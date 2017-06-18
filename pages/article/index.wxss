@@ -1,0 +1,52 @@
+/* index.wxss */
+@import "../../wxParse/wxParse.wxss";
+.body{
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  background: gainsboro;
+}
+.info .name{
+  top:-20rpx;
+  position: relative;
+  font-size: 40rpx;
+}
+.info view{
+  font-size: 35rpx;
+}
+.header .list{
+  display: inline-block;
+  padding: 20rpx;
+  text-align: middle;
+
+}
+.case{
+  padding:0 60rpx;
+  margin-bottom: 5rpx;
+  background-color:white;
+  
+}
+.content{
+   font-size:30rpx;
+   text-indent: 2em;
+   padding:30rpx 60rpx; 
+}
+.section view{
+   text-align: center;
+   font-size:35rpx;
+}
+.free view{
+  width: 100%;
+  background: red;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 0 20rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  background: orangered;
+  box-sizing: border-box;
+  font-size: 40rpx;
+  font-weight: bold;
+
+}

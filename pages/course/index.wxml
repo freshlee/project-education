@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="body">
+<view class="picture case">
+<image src="C:/Users/Administrator/Desktop/image/banner2.jpg"></image>
+</view>
+<view class="info case">
+<view class="classname">
+<view class="base">
+<view class="name">十天精通UI设 计</view>
+<view class="price">￥120</view>
+</view>
+<view class="attr">
+<view class="">属性1</view>
+<view class="">属性2</view>
+<view class="">属性3</view>
+</view>
+</view>
+</view>
+<view class="remark case ">
+<view class="title">课程评价</view>
+<view class="li">好评</view>
+<view class="li">中评</view>
+<view class="li">差评</view>
+</view>
+<view class="intro case" style="display:{{show==2?'block':'none'}}">富文本介绍页面
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+<view class="panel">
+<view class="classname">购买</view>
+<view class="classname">加入购物车</view>
+</view>
+<view class="free" style="display:{{show==1?'block':'none'}}">
+<view class="classname"> 前往付费</view>
+</view>
+
+</view>

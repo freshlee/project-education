@@ -1,0 +1,62 @@
+/* index.wxss */
+.case{
+  padding: 0 60rpx;
+  margin:1rpx 0;
+}
+.name,.price{
+  height: 150rpx;
+  line-height: 150rpx;
+  font-size:40rpx;
+}
+.totalPrice{
+  height: 300rpx;
+  line-height: 300rpx;
+  font-size:80rpx;
+  text-align: center;
+}
+.panel{
+  position: relative;
+  height: 200rpx;
+  line-height: 200rpx;
+}
+.panel .left,.panel .right{
+    font-size: 120rpx;
+    background: chartreuse;
+    width:150rpx;
+    text-align: center;
+}
+.panel view{
+  display: inline-block;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.window{
+  position:absolute;
+  left:50%;
+  width:300rpx;
+  margin-left:-150rpx;
+  height: 200rpx;
+  background: gainsboro;
+  font-size: 120rpx;
+  text-align: center;
+}
+.go view{
+  width: 100%;
+  background: red;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: red;
+  box-sizing: border-box;
+  font-size: 35rpx;
+  font-weight: bold;
+
+}
+

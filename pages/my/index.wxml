@@ -1,0 +1,216 @@
+
+<view class="well userinfo" bindtap="bindViewTap">
+    <image class="banner" src="/images/center-banner.png"></image>
+    <view class="userinfo-avatar">
+        <image src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+</view>
+<view class="well center">
+    <view class="wells">
+        <view class="center-head">
+             <view class="center-head-l">
+                    <text>查看订单</text>
+             </view>
+             <navigator url="../order/index?status=0">
+              <view class="center-head-r">
+                    <text>全部订单</text>
+                    <image src="/images/icon-arrowdown.png"></image>
+              </view>
+              </navigator>
+        </view>
+    </view>
+    <view class="clearfix"></view>
+    <view class="order">
+        <navigator url="../order/index?status=1">
+        <view class="order-stant">
+            <image src="/images/dfk.png"></image>
+            <text>待付款</text>
+            <view wx:if="{{status2!=0}}">{{status2}}</view>
+        </view>
+        </navigator>
+        <navigator url="../order/index?status=2">
+        <view class="order-stant">
+            <image src="/images/dsh.png"></image>
+            <text>待发货</text>
+            <view wx:if="{{status3!=0}}">{{status3}}</view>
+        </view>
+        </navigator>
+        <navigator url="../order/index?status=3">
+        <view class="order-stant">
+            <image src="/images/dfh.png"></image>
+            <text>待收货</text>
+            <view wx:if="{{status4!=0}}">{{status4}}</view>
+        </view>
+        </navigator>
+        <navigator url="../order/index?status=4">
+        <view class="order-stant">
+            <image src="/images/dpj.png"></image>
+            <text>待评价</text>
+            <view wx:if="{{status5!=0}}">{{status5}}</view>
+        </view>
+        </navigator>
+        <navigator url="../order/index?status=5">
+        <view class="order-stant">
+            <image src="/images/qbdd.png"></image>
+            <text>退换/售后</text>
+            <view wx:if="{{status6!=0}}">{{status6}}</view>
+        </view>
+        </navigator>
+    </view>
+</view>
+<view class="clearfix"></view>
+<view class="gap"></view>
+
+<view class="well center" wx:if="{{commission_open>0}}">
+    
+    <view class="wells" wx:if="{{commission==1}}">
+        <navigator open-type="switchTab" url="../sale/index/index">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>分销中心</text>
+                </view>
+                <view class="center-head-r">
+                    <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+
+    <view class="wells" wx:if="{{commission==0}}" bindtap="applyfx">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>申请分销</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+    </view>
+    <view class="wells" wx:if="{{commission==2}}">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>分销审核中</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+    </view>
+</view>
+
+<view class="well center">
+    <view class="wells">
+        <navigator url="../extra/mycoupon/index">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>优惠劵</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>
+<view class="well center">
+    <view class="wells">
+        <navigator url="../extra/collect/index">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>我的收藏</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>
+<view class="well center">
+    <view class="wells">
+        <navigator url="../address/index">
+            <view class="center-head">
+            
+                <view class="center-head-l">
+                        <text>地址管理</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>
+
+<view class="well center"  wx:if="{{isbindmobile=='0'}}" bindtap="bindphone">
+    <view class="wells">
+        <view class="center-head">
+            <view class="center-head-l">
+                    <text>绑定手机</text>
+            </view>
+            <view class="center-head-r">
+                    <image src="/images/icon-arrowdown.png"></image>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="well center"  wx:if="{{isbindmobile=='1'}}" bindtap="resetbind">
+    <view class="wells">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>解绑手机</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+    </view>
+</view>
+<view class="well center" wx:if="{{merch_status=='-2'}}" bindtap="apply">
+    <view class="wells">
+        <view class="center-head">
+            <view class="center-head-l">
+                    <text>申请店铺入驻</text>
+            </view>
+            <view class="center-head-r">
+                    <image src="/images/icon-arrowdown.png"></image>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="well center" wx:if="{{merch_status!='-2'}}">
+    <view class="wells">
+        <view class="center-head">
+            <view class="center-head-l">
+                    <text wx:if="{{merch_status=='0'}}">店铺入驻申请中</text>
+                    <text wx:if="{{merch_status=='-1'}}">申请店铺入驻被驳回</text>
+                    <text wx:if="{{merch_status=='1'}}">店铺待入驻中</text>
+                    <text wx:if="{{merch_status=='2'}}">已入驻店铺</text>
+                    <text wx:if="{{merch_status=='3'}}">店铺入驻暂停中</text>
+                    <text wx:if="{{merch_status=='4'}}">店铺即将到期</text>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="well center">
+    <view class="wells">
+        <navigator url="../help/index">
+            <view class="center-head">
+                <view class="center-head-l">
+                        <text>关于我们</text>
+                </view>
+                <view class="center-head-r">
+                        <image src="/images/icon-arrowdown.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>
+
+<view class="server">
+    <contact-button type="default-light" size="20" session-from="weapp" >
+    </contact-button>
+    <text>客服</text>
+</view>

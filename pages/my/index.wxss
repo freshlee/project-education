@@ -1,0 +1,40 @@
+
+.well.userinfo { height: 299rpx; position: relative; }
+.well.userinfo .banner { width: 750rpx; height: 299rpx; }
+.userinfo-avatar { width: 100%; height:  299rpx;line-height: 299rpx; position: absolute;top: 0; left: 0; }
+.userinfo-avatar image { width: 130rpx; height: 130rpx; position: absolute; top: 80rpx; left:37rpx;  border: 4rpx solid #ffffff; border-radius: 140rpx; }
+.userinfo-avatar text { margin-left: 190rpx; color: #fff; }
+.center-head { width: 100%; height: 102rpx; line-height: 102rpx; border-bottom: 1rpx solid #ededed; position: relative; }
+.center-head .center-head-l { width: 75%; float: left; font-size: 30rpx; } 
+.center-head .center-head-l image { width: 31rpx; height: 38rpx; position: absolute; top: 32rpx; left: 0; }
+.center-head .center-head-l text { font-size: 30rpx; }
+.center-head .center-head-r { width: 25%; float: left; text-align: right; } 
+.center-head .center-head-r text { font-size: 26rpx; margin-right: 48rpx; color: #949494; }
+.center-head .center-head-r image { width: 32rpx; height: 32rpx; position: absolute; top: 36rpx; right: 0; }
+.well.center .order { width: 100%; } 
+.gap { background: #efeff4 !important; }
+.well.center .order .order-stant { width: 150rpx; height: 136rpx; float: left; text-align: center; position: relative; }
+.well.center .order .order-stant image { width: 48rpx; height: 46rpx; margin-top: 26rpx; }
+.well.center .order .order-stant text { width: 150rpx; display: block; margin-top: 10rpx; color: #908a8a }
+.well.center .order .order-stant view { height: 35rpx; line-height: 35rpx; padding: 0 10rpx; border-radius: 35rpx; background: #e30c26; color: #fff; position: absolute; top: 12rpx; right: 20rpx; font-size: 22rpx; }
+
+.tuijian1 { width: 100%; padding-top: 30rpx; text-align: center;  background: #efeff4; font-size: 29rpx; color: #1b1b1b; }
+.tuijian2 { width: 100%; margin-top: 4rpx; text-align: center;  background: #efeff4; font-size: 25rpx; color: #ceced0; }
+.well.tuijian { height: 140rpx; background: #efeff4; }
+.tuijian-list { width: 100%; margin-top: 28rpx; border-bottom: 1rpx solid #efeff4; }
+.tuijian-list .wells { margin-bottom: 28rpx; }
+.tuijian-list-l { width: 180rpx; height: 180rpx; float: left; border: 1rpx solid #efeff4; }
+.tuijian-list-l image { width: 180rpx; height: 152rpx; }
+.tuijian-list-r { width: 490rpx; height: 180rpx; float: right; }
+.tuijian-list-r .v1 { font-size: 25rpx; margin-top: 16rpx; }
+.tuijian-list-r .v2 { font-size: 25rpx; color: #fd4a5f; margin-top: 20rpx; }
+
+
+
+
+
+
+
+
+
+

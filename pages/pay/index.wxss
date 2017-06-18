@@ -1,0 +1,22 @@
+/* pages/pay/index.wxss */
+
+.pay-content { height: 460rpx; text-align: center; }
+.pay-content image { width: 180rpx; height: 180rpx; margin-top: 90rpx; }
+.pay-content .v1{ font-size: 25rpx; color: #676767; margin-top: 10rpx; text-align: center;  }
+.pay-content .v2 { font-size: 35rpx; color: #3f3f3e; margin-top: 10rpx; text-align: center;  }
+.well.lines { height: 100rpx; line-height: 100rpx; background: #efeff4;}
+.well.lines .t1 { color: #656565; font-size: 30rpx; }
+.well.lines .t2 { color: #afafaf; font-size: 30rpx; float: right;  }
+.pay-btn { width: 100%; height: 108rpx; line-height: 108rpx; font-size: 35rpx; text-align: center; color: #fff; background: #1aad19; border: 1rpx solid #1aad19; border-radius: 12rpx; }
+
+
+
+
+
+
+
+
+
+
+
+

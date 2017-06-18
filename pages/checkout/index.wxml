@@ -1,0 +1,27 @@
+<view class="body">
+<view class="info case">
+<view class="classname">课程名称</view>
+<view class="classname">课程类型</view>
+<view class="classname">授课形式</view>
+</view>
+<view class="message case">
+<view class="classname">收货信息</view>
+<view class="classname"></view>
+</view>
+<view class="address case">
+<view class="classname">线下地址</view>
+<view class="classname"></view>
+</view>
+<view class="status case">
+<view class="total">订单总额
+<view class="num">应付 <text>800元</text> </view>
+</view>
+<view class="vochour">优惠
+<view class="num">- <text>800元</text> </view>
+</view>
+<view class="final">实付金额
+<view class="num">实付 <text>800元</text> </view>
+</view>
+</view>
+</view>
+<view class="panel" bindtap="purchase" >使用微信支付</view>

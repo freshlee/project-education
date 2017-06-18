@@ -1,0 +1,65 @@
+<!--pages/video/index.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<video src="src" style="width:100%;height:300rpx"></video>
+<view class="toolbar">
+<view class="list" bindtap="section" style="border-bottom:{{border_section}}">章节</view>
+<view class="list" bindtap="detail" style="border-bottom:{{border_detail}}">详情</view>
+<view class="list" bindtap="comment" style="border-bottom:{{border_comment}}">介绍</view>
+<view class="list" bindtap="interact" style="border-bottom:{{border_interact}}">相关课程</view>
+</view>
+<scroll-view class="contain" bindscroll="onMove" bindtouchend="onStop" scroll-into-view="{{toView}}" style="width:100%;white-space:nowrap;" scroll-with-animation scroll-x>
+<view class="list window" id="section"  >
+<view class="ul">课程标题</view>
+<view class="li">XXXXXXXXXXXXXXXXXXXX</view>
+<view class="li">XXXXXXXXXXXXXXXXXXXX</view>
+<view class="li">XXXXXXXXXXXXXXXXXXXX</view>
+<view class="li">XXXXXXXXXXXXXXXXXXXX</view>
+<view class="li">XXXXXXXXXXXXXXXXXXXX</view>
+</view>
+<!--详情-->
+<view class="list window" id="detail" >
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+
+</view>
+<!--评论-->
+<view class="list window" id="comment">
+<view class="introduce case">
+<view class="title">课程须知</view>
+<view class="intContent">本课程是腾讯。。。。。。。</view>
+</view>
+<view class="teacher case">
+<view class="protrait"> <image src="../../images/headprotrait.jpg"></image> </view>
+<view class="teacher_info">
+<view class="teachername">T-BAG</view>
+<view class="rank">全栈工程师</view>
+</view>
+</view>
+<view class="remark case">
+<view class="header">
+<view class="num">综合评分：<text>10</text></view>
+<view class="more">查看更多</view>
+</view>
+<view class="user">
+<view class="user_info">
+<view class="user_protrait"><image src="../../images/headprotrait.jpg"></image> </view>
+<view class="user_name">我是用户</view>
+<view class="star"></view>
+</view>
+<view class="content">还不错</view>
+</view>
+
+</view>
+</view>
+<view class="list window" id="interact"   >
+<view class="title">推荐的课程</view>
+<view class="title_case">
+<view class="picture list"> <image src="C:/Users/Administrator/Desktop/image/Case3-02.png"></image> </view>
+<view class="info list">
+<view class="classname">MK-linux运维</view>
+<view class="classname">openstack-slatstack学习</view>
+<view class="priceattr">免费</view>
+</view>
+</view>
+</view>
+</scroll-view>
+

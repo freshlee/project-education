@@ -1,0 +1,30 @@
+.menu { width: 750rpx; border-bottom: 1rpx solid #c7c3c2;height: 90rpx; background: #fff; z-index: 11;position: fixed; top: 0; left: 0; right: 0; }
+.menu-list { width: 187.5rpx; text-align: center; height: 90rpx; line-height: 90rpx; float: left; position: relative; }
+.menu-list text { font-size: 28rpx; color: #818181; }
+.menu-list image { width: 18rpx; height: 11rpx; position: absolute; top: 42rpx; left: 135rpx; }
+.menu-list text.active { color: #d63939 }
+.menu-list .line { width: 2rpx; height: 30rpx; background: #c5c0bf; position: absolute; top: 30rpx; right: 0; }
+.menu-list:nth-child(4) .line { background: #fff; }
+.scroll-menu { height: 108rpx; background: #fff; position: fixed; top: 92rpx; left: 0; right: 0; }
+.scroll-menu view { height: 60rpx; padding: 0 28rpx; line-height: 60rpx; margin-top: 24rpx; margin-left: 20rpx; display: inline-block; text-align: center; background: #f1f1ef; border: 1rpx solid #f1f1ef; color: #0c0c0c; font-size: 28rpx; border-radius: 12rpx; }
+.scroll-menu view.active { background: #fff; border: 1rpx solid #ff2424; color: #ff2424; }
+.drow { display: none; width: 100%; height: 580rpx; border-bottom: 1rpx solid #e7e7e7; position: fixed; top: 92rpx; left: 0; right: 0; background: #fff; z-index: 11; }
+.drow-content { width: 100%; height: 460rpx; }
+.well-r { width: 720rpx; float: right; }
+.well-r .dorw-list { width: 100%; height: 86rpx; line-height: 89rpx; border-bottom: 1rpx solid #e7e7e7; position: relative; }
+.well-r .dorw-list icon { position: absolute; top: 20rpx; right: 25rpx; }
+.well4 { width: 690rpx; margin: auto; }
+.well4 view { width: 322rpx; height: 75rpx; line-height: 75rpx; margin-top: 24rpx; text-align: center; color: #fff; background: #ff0000; font-size: 30rpx; border: 1rpx solid #d63939; border-radius: 12rpx; }
+.well4 .v1 { float: left; }
+.well4 .v2 { float: right; }
+
+.goods-list { width: 350rpx; height: 545rpx; float: left; border: 2rpx solid #ededed; margin-bottom: 15rpx; }
+.goods-list:nth-child(even) { float: right }
+.goods-list image { width: 350rpx; height: 350rpx; }
+.goods-list .v1 { width: 326rpx; margin-left: 14rpx; height: 50rpx; line-height: 50rpx; margin-top: 6rpx; font-size: 25rpx; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+.goods-list .v2 { width: 326rpx; margin-left: 14rpx;  color: #909090; } 
+.goods-list .v3 { width: 326rpx; margin-left: 14rpx; font-size: 25rpx;  color: #f15622; margin-top: 10rpx; }
+.goods-list .v3 text { text-decoration: line-through; margin-left: 34rpx; font-size: 25rpx;  color: #bdbdbd;}
+.goods-list .v4 { width: 322rpx; margin-left: 14rpx; font-size: 24rpx; margin-top: 10rpx;  }
+.goods-list .v4 .t1 { color: #bdbdbd; font-size: 23rpx; }
+.goods-list .v4 .t2 { float: right; color: #bdbdbd; font-size: 23rpx; }

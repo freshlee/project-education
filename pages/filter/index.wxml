@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="body">
+
+<view class="meter">
+<view class="signal">类别: <text class="typeon">{{trans_mycate}}</text></view>
+<view class="signal">收费: <text class="typeon">{{trans_mypay}}</text> </view>
+<view class="signal">类型: <text class="typeon">{{trans_mytype}}</text> </view>
+<view class="{{status=='on'?'hidden':'show'}}" bindtap="statusChange">筛选 <image src="../../images/arrow_bottom.jpg"></image> </view>
+</view>
+
+<view class="{{status=='on'?'filteron':'filteroff'}} case filter" >
+<view class="list">
+<view class="typename">类别</view>
+<view class="{{cates==item.id?'typeon':'type'}}" wx:for="{{type}}" bindtap="chosecate" data-cate="{{item.id}}"
+ data-trans="{{item.name}}">{{item.name}}</view>
+<view class="{{cates==0?'typeon':'type'}}"  bindtap="chosecate" data-cate="0"
+>全部</view>
+</view>
+<view class="list">
+<view class="typename" >收费</view>
+<view class="{{pays==1?'typeon':'type'}}" bindtap="chosepay"  data-pay="1" data-trans="免费">免费</view>
+<view class="{{pays==2?'typeon':'type'}}" bindtap="chosepay"  data-pay="2" data-trans="VIP">VIP</view>
+<view class="{{pays==3?'typeon':'type'}}" bindtap="chosepay"  data-pay="3" data-trans="收费限时">收费限时</view>
+<view class="{{pays==0?'typeon':'type'}}" bindtap="chosepay"  data-pay="0" data-trans="全部">全部</view>
+</view>
+<view class="list">
+<view class="typename">类型</view>
+<view class="{{types==1?'typeon':'type'}}" bindtap="chosetype" data-type="1" data-trans="视频">视频</view>
+<view class="{{types==2?'typeon':'type'}}" bindtap="chosetype" data-type="2" data-trans="文章">文章</view>
+<view class="{{types==3?'typeon':'type'}}" bindtap="chosetype" data-type="3" data-trans="线下">线下</view>
+<view class="{{types==0?'typeon':'type'}}" bindtap="chosetype" data-type="0" data-trans="全部">全部</view>
+</view>
+<view class="panel" bindtap="sure">
+开始筛选
+</view>
+</view>
+<view class="goods">
+<view class="good" wx:for="{{cases}}" data-id="{{item.id}}" data-nav="{{item.doctype}}" bindtap="jump">
+
+<view class="picture li"> <image src="../../images/510.jpg"></image> </view>
+
+<view class="info li">
+<view class="name list">10天学会C语言</view>
+<view class="property">
+<view class="classname">付费</view>
+</view>
+</view>
+
+</view>
+</view>
+
+</view>

@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class="body">
+<view class="header case" style="background: url('C:/Users/Administrator/Desktop/image/back.jpg');">
+<view class="picture list"> <image src="C:/Users/Administrator/Desktop/image/banner2.jpg" style="height:300rpx;width:250rpx"></image> </view>
+<view class="info list">
+<view class="name">书名</view>
+<view class="li">作者</view>
+<view class="li">来源</view>
+<view class="li">类型</view>
+<view class="li">字数</view>
+</view>
+</view>
+<view class="content case">
+asddsa俺是个师傅的告诉对方</view>
+<view class="section case">
+<view class="classname">第一章</view>
+<view class="classname">第二章</view>
+<view class="classname">第三章</view>
+<view class="classname">第四</view>
+<view class="classname">XX</view>
+</view>
+<view class="free" style="display:{{show==1?'block':'none'}}">
+<view class="classname"> 前往观看</view>
+</view>
+</view>

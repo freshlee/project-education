@@ -1,0 +1,69 @@
+<view class="mask {{mask ? 'on' : ''}}" bindtap="hidemask"></view>
+<view class="well menu">
+    <view class="menu-list" wx:for="{{menu}}" data-index="{{index}}" bindtap="choosemenu">
+        <text class="{{item.selected ? 'active' : ''}}">{{item.name}}</text>
+        <image wx:if="{{item.selected}}" src="/images/dow-icon2.png"></image>
+        <image wx:if="{{!item.selected}}" src="/images/dow-icon.png"></image>
+        <view class="line"></view>
+    </view>
+</view>
+<view class="well drow {{dorw ? 'on' : ''}}">
+    <scroll-view class="drow-content" scroll-y="true" scroll-top="{{top}}" data-id="{{item.id}}" data-index="{{index}}">
+        <view class="well-r">
+            <view wx:for="{{dorwlist}}" bindtap="dorwlist" data-index="{{index}}" class="dorw-list">{{item.name}}
+                <icon wx:if="{{item.selected}}" size="20" color="#ff0000" type="success_no_circle"/>
+            </view>
+        </view>
+    </scroll-view>
+    <view class="well4">
+        <view class="v1" bindtap="resetsearch">重置搜索</view>
+        <view class="v2" bindtap="suresearch">确定</view>
+    </view>
+</view>
+<!--
+<scroll-view scroll-x="true" class="scroll-menu" style=" white-space: nowrap; display: flex">
+    <view wx:for="{{menu2}}" class="{{item.selected ? 'active' : ''}}"  bindtap="choosemenu2" data-index="{{index}}">{{item.name}}</view>
+</scroll-view>
+-->
+<view style="width:100%; height:108rpx;"></view>
+<view class="null-comtent" wx:if="{{list==''}}">
+    <image src="/images/null-icon.png"></image>
+    <view><text>亲，暂时没有相关商品</text></view>
+</view>
+<view class="well">
+    <view class="wellsss">
+        <view class="goods-list" wx:for="{{list}}">
+        <navigator url="../details/index?id={{item.id}}">
+            <image src="{{item.thumb}}"></image>
+            <view class="v1">{{item.title}}</view>
+            <view class="v2">{{item.merchname}}</view>
+            <view class="v3" wx:if="{{item.marketprice!='0.00'}}">￥{{item.marketprice}}<text wx:if="{{item.marketprice!=item.oldprice}}"> 原价￥{{item.oldprice}}  </text></view>
+            <view class="v3" wx:if="{{item.marketprice=='0.00'}}">面议</view>
+            <view class="v4">
+                <text class="t1" wx:if="{{item.comments!=0}}">{{item.comments}}人评价</text><text class="t1" wx:if="{{item.comments==0}}">新上架</text>
+                <text class="t2">销量：{{item.salesreal}}</text>
+            </view>
+        </navigator>
+        </view>
+    </view>
+</view>
+<view class="clearfix"></view>
+<view class="well load">
+    <view><image wx:if="{{showload}}" src="/images/load.gif"></image><text>{{loadmore}}</text></view>
+</view>
+<loading hidden="{{loadingHidden}}">
+    加载中...
+</loading>
+
+
+
+
+
+
+
+
+
+
+
+
+

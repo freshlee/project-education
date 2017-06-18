@@ -1,0 +1,42 @@
+.body{
+  background: white;
+}
+.case{
+  padding:0 60rpx;
+  margin:5rpx 0;
+}
+view{
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  
+}
+
+ .title{
+  font-size: 40rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.title_case{
+  padding:20rpx 0;
+  border-bottom:1rpx solid gainsboro;
+}
+.title_case .list{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+}
+.title_case .info{
+  height: 150rpx;
+  line-height: 37.5rpx;
+  padding-left:20rpx;
+}
+.title_case image{
+  height: 150rpx;
+}
+.title_case .priceattr{
+  line-height: 75rpx;
+  height: 75rpx;
+  font-size:35rpx;
+  color:green;
+}

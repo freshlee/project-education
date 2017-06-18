@@ -1,0 +1,121 @@
+/* pages/video/index.wxss */
+@import "../../wxParse/wxParse.wxss";
+.toolbar view{
+  display: inline-block;
+}
+view{
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  
+}
+.contain  .window{
+  display: inline-block;
+  width:100%;
+  vertical-align: top;
+  padding: 80rpx;
+  box-sizing: border-box;
+  
+}
+.toolbar .list{
+  width:25%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+.window .ul{
+  font-size: 40rpx;
+}
+.window .li{
+  text-align: left;
+  font-size:30rpx;
+  text-indent: 2em;
+}
+#section .li{
+  margin: 20rpx 0;
+}
+#detail view{
+  white-space: pre-wrap;
+}
+#comment .case{
+  padding:50rpx 0;
+  border-bottom:1rpx solid lightgrey; 
+}
+#comment .title{
+  font-size: 40rpx;
+}
+#comment .intContent{
+  font-size: 35rpx;
+  text-indent: 2em;
+}
+#comment .teacher image{
+  width:80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+#comment .teacher > view{
+   display: inline-block;
+}
+#teacher .remark .header>view{
+  display: inline-block;
+  }
+.header:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.header{
+  margin-bottom: 30rpx;
+}
+.header .num{
+  float: left;
+  font-size: 30rpx
+} 
+.header .num text{
+  font-size: 40rpx
+} 
+.header .more{
+  float: right;
+}
+
+.user_info view{
+  display: inline-block;
+}
+.user_info image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.user .content{
+  padding-left:70rpx;
+}
+#interact .title{
+  font-size: 40rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.title_case{
+  padding:20rpx 0;
+  border-bottom:1rpx solid gainsboro;
+}
+.title_case .list{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+}
+.title_case .info{
+  height: 150rpx;
+  line-height: 37.5rpx;
+  padding-left:20rpx;
+}
+.title_case image{
+  height: 150rpx;
+}
+.title_case .priceattr{
+  line-height: 75rpx;
+  height: 75rpx;
+  font-size:35rpx;
+  color:green;
+}

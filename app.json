@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/demo/index",
+    "pages/filter/index",
+    "pages/video/index",
+    "pages/community/index",
+    "pages/shedule/index",
+    "pages/checkout/index",
+    "pages/paymenu/index",
+    "pages/pay/index",
+    "pages/article/read/index",
+    "pages/my/index",
+    "pages/article/index",
+    "pages/course/index",
+    "pages/advertise/index",
+    "pages/list/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "测试",
+    "navigationBarBackgroundColor": "#e30c26",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#9e9e9e",
+    "selectedColor": "#e30c26",
+    "borderStyle": "white",
+    "backgroundColor": "#F5F5F5",
+    "list": [
+      {
+        "pagePath": "pages/demo/index",
+        "iconPath": "images/home-icon2.png",
+        "selectedIconPath": "images/home-icon1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shedule/index",
+        "iconPath": "images/shedule_logo.png",
+        "selectedIconPath": "images/cart-icon1.png",
+        "text": "课表"
+      },
+      {
+        "pagePath": "pages/community/index",
+        "iconPath": "images/shedule_logo.png",
+        "selectedIconPath": "images/cart-icon1.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/center-icon2.png",
+        "selectedIconPath": "images/center-icon1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}

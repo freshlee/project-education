@@ -1,0 +1,190 @@
+.body{
+  background-color: gainsboro;
+}
+.navigator:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.header{
+  background-color: white;
+  padding-bottom: 10%;
+}
+.list{
+  border-radius: 50%;
+  width: 115rpx;
+  height: 110rpx;
+  background: yellow;
+  float: left;
+  margin-top: 40rpx;
+  margin-left:60rpx; 
+}
+.list text{
+  text-align: center;
+  transform: translateY(100rpx);
+  display: block;
+}
+
+
+.firstCase{
+  text-align: center;
+  padding: 0 5% 10rpx;
+  margin:10rpx 0; 
+  background-color: white;
+}
+.firstCase::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.mainvideo{
+  display: inline-block;
+   width: 100%;
+   height: 290rpx;
+}
+.mainvideo .video{
+  width:100%;
+  height: 100%;
+}
+.subvideo{
+  width: 49%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+.subvideo .video{
+  height: 100rpx;
+}
+.subvideo > view{
+    font-size:70%;
+    text-align: left;
+}
+.subvideo  text{
+   text-align: left;
+}
+.subvideo:first-of-type{
+  float:left; 
+}
+.subvideo:last-of-type{
+  float:right; 
+}
+.subvideo > video{
+  width:100%;
+  height: 100%;
+}
+.caseHead{
+  height: 60rpx;
+  line-height: 60rpx;
+
+}
+.title{
+  float: left;
+  font-weight:600;
+  font-size:1.5em;  
+}
+.more{
+  float: right;
+  color: grey;
+}
+.littleBall{
+  display: inline-block;
+  border-radius: 50%;
+  width: 10rpx;
+  height: 10rpx;
+  background: gainsboro;
+}
+.secondCase{
+  text-align: center;
+  padding: 0 5%;
+  background-color: white;
+}
+.advertise{
+  clear: both;
+  height: 290rpx;
+  background: black;
+}
+.logoContainer{
+  margin: 0 -1%;
+}
+.LOGO{
+  display: inline-block;
+  width: 23%;
+  height: 120rpx;
+  margin:5rpx 1%; 
+}
+.thirdCase{
+  text-align: center;
+  padding: 0 5% 10rpx;
+  margin:10rpx 0; 
+  background-color:white;
+}
+
+.course{
+  clear:both;
+  display: inline-block;
+  height: 100rpx;
+  width:50%;
+  text-align: center;  
+}
+.course text{
+  display: block;
+  text-align: left;
+}
+.course image{
+  height: 200rpx;
+}
+.course text:last-of-type{
+  color:dodgerblue;
+  font-weight: 600;
+}
+.forthCase{
+  text-align: center;
+  padding: 0 5% 10rpx;
+  margin:10rpx 0; 
+  background-color: white;
+}
+.article:after{
+  content:"";
+  clear: both;
+  display: block;
+}
+.article{
+  margin-bottom:10rpx; 
+}
+.article > .section_left{
+  float:left;
+  width: 70%;
+  padding: 10rpx 0;
+}
+.article > .section_left  view{
+  text-align: left;
+  word-wrap: break-word;
+}
+.article_title{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.article_content{
+  color: grey;
+}
+.article_subscript{
+  color:grey;
+  margin-top:15rpx;
+}
+
+.article > .section_right{
+  float:right;
+  width: 25%;
+}
+.section_right > view{
+  height: 80rpx;
+}
+navigator image{
+  height: 240rpx;
+}
+.image{
+  background-size:100% 100%; 
+}
+
+
+

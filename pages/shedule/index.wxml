@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="body">
+<view class="case">
+<view class="title_case">
+<view class="picture list"> <image src="C:/Users/Administrator/Desktop/image/Case3-02.png"></image> </view>
+<view class="info list">
+<view class="classname">MK-linux运维</view>
+<view class="classname">openstack-slatstack学习</view>
+<view class="priceattr">免费</view>
+</view>
+</view>
+</view>
+</view>

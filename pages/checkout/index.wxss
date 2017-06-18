@@ -1,0 +1,52 @@
+.body{
+  background: gainsboro;
+}
+.case{
+  padding: 0 60rpx;
+  margin: 10rpx 0;
+  background: white;
+}
+.case view{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+}
+.case>view:first-of-type{
+  border-bottom:1rpx solid gainsboro; 
+}
+.num{
+  float: right;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.total .num text{
+  font-size: 40rpx;
+  color:red;
+}
+.vochour{
+  font-size:30rpx;
+}
+
+.vochour .num text{
+  font-size: 30rpx;
+  color:red;
+}
+.final .num text{
+  font-size: 30rpx;
+  color:red;
+}
+.final{
+  font-size:30rpx;
+}
+.panel{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  width:100%;
+  font-size: 40rpx;
+  color:blanchedalmond;
+  background: lightgreen;
+ 
+}

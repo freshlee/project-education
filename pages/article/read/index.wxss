@@ -1,0 +1,19 @@
+/* index.wxss */
+@import "../../../wxParse/wxParse.wxss";
+.panel{
+  text-align: right;
+  padding:0 10rpx;
+}
+.panel view{
+  display: inline-block;
+  margin:10rpx 10rpx;
+  padding: 5rpx;
+  font-size:35rpx;
+  border-radius: 10%;
+  border:1px solid grey;  
+}
+.content{
+  padding:0 10rpx;
+  word-break: break-all;
+  word-wrap: break-word;
+}

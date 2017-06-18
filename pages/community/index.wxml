@@ -1,0 +1,62 @@
+<view class="body">
+<view class="banner">
+<swiper indicator-dots="true">
+  <block wx:for="{{bannerUrls}}">
+  <swiper-item>
+      <navigator url="{{item.url}}">
+          <image src="{{item.thumb}}" style="height:350rpx"/>
+      </navigator>
+    </swiper-item>
+    
+  </block>
+</swiper>
+</view>
+<view class="nav">
+<view class="list" wx:for="nav">
+<view>
+<view class="header">
+<image src="C:/Users/Administrator/Desktop/image/Case3-02.png"></image></view>
+</view>
+<view class="name">测试</view>
+</view>
+
+</view>
+<view class="content">
+<view class="catename">热门内容</view>
+<view class="discribe">24消失内热门回答以及文章</view>
+<view class="case">
+<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+
+<view class="case">
+<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+
+<view class="case">
+<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+
+</view>
+<view class="content">
+<view class="catename">热门内容</view>
+<view class="discribe">24消失内热门回答以及文章</view>
+<view class="case">
+<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+
+</view>
+<view class="content">
+<view class="catename">热门内容</view>
+<view class="discribe">24消失内热门回答以及文章</view>
+<view class="case">
+<view class="title">如果有一个按钮，按下后所有JAVA都会消失</view>
+<view class="sum">哈哈，有好多好玩的场景，随便说几个。假定这里说的</view>
+</view>
+
+</view>
+
+</view>
